@@ -349,6 +349,8 @@ nav ul li button:hover{
     border-radius: 16px;
     background: rgb(255, 255, 255);
     cursor: pointer;
+}
+.font{
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
     font-size: 40px;
