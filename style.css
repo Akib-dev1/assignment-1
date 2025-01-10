@@ -288,7 +288,7 @@ nav ul li button:hover{
     padding: 48px;
     border-radius: 24px;
     background: rgb(255, 255, 255);
-    border: 1px solid rgba(14, 14, 14, 0.08);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .news-content{
     display: flex;
@@ -324,4 +324,165 @@ nav ul li button:hover{
 }
 .donate{
     margin: 0px 160px 80px 160px;
+}
+.donate h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+.donate p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 24px 88px 32px 88px;
+}
+.option{
+    text-align: center;
+    padding: 40px;
+    height: 128px;
+    width: 100%;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.money-option{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0px 104.5px 32px 104.5px;
+}
+.option h4{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.input-box{
+    margin: 0px 124px 32px 124px;
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+.input-box input::placeholder{
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.input-box input{
+    color: black;
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.donate button{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 17px 34px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+.donate button:hover{
+    background-color: inherit;
+    color: rgb(0, 106, 80);
+    border: 1px solid rgb(0, 106, 80);
+}
+.btn-box{
+    display: flex;
+    justify-content: center;
+}
+.newsletter{
+    margin: 0px 160px 80px 160px;
+    padding: 80px 0px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter-content h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.p1{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.newsletter-content{
+    width: 750px;
+}
+.subscribe-box{
+    display: flex;
+}
+.subscribe-box button{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    border: 1px solid rgb(0, 106, 80);
+    cursor: pointer;
+}
+.subscribe-box button:hover{
+    background-color: inherit;
+    color: rgb(0, 106, 80);
+    border: 1px solid rgb(0, 106, 80);
+}
+.subscribe-box input{
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+}
+.p2{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 25px;
 }
