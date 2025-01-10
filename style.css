@@ -100,7 +100,6 @@ nav ul li button:hover{
     margin-bottom: 12px;
 }
 .pillar-box{
-    width: 302px;
     height: 244px;
     padding: 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -120,4 +119,122 @@ nav ul li button:hover{
 .pillar-content{
     display: flex;
     justify-content: space-between;
+    gap: 24px;
+}
+.vision{
+    margin: 0px 160px 32px 160px;
+}
+.vision h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 24px;
+}
+.vision>p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+.vision-box{
+    height: 325px;
+    padding: 32px;
+    border-radius: 16px;
+}
+.vision-box1{
+    background: rgba(84, 144, 245, 0.2);
+}
+.vision-box2{
+    background: rgb(198, 228, 214);
+}
+.vision-box3{
+    background: rgb(247, 235, 207);
+}
+.vision-box img{
+    margin-bottom: 25px;
+}
+.vision-box h4{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.vision-box p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.vision-box button{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 11px 20px;
+    border: none;
+    cursor: pointer;
+}
+.vision-box1 button{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+}
+.vision-box2 button{
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+}
+.vision-box3 button{
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+}
+.vision-box button:hover{
+    background-color: inherit;
+    color: rgb(14, 14, 14);
+    border: 1px solid rgb(14, 14, 14);
+}
+.vision-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.quote{
+    margin: 0px 160px 80px 160px;
+    padding: 48px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    background-image: url('/assignment-1/assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+.qdesp{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.udesp{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.quote-box h4{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 4px;
 }
