@@ -205,13 +205,16 @@ nav ul li button:hover{
 }
 .quote{
     margin: 0px 160px 80px 160px;
-    padding: 48px 24px;
+    padding: 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
     background-image: url('/assignment-1/assets/quote-bg.png');
     background-repeat: no-repeat;
     background-origin: content-box;
+}
+.quote-box>div{
+    padding: 24px 0px;
 }
 .qdesp{
     color: rgba(14, 14, 14, 0.8);
@@ -221,7 +224,7 @@ nav ul li button:hover{
     line-height: 24px;
     margin-bottom: 12px;
 }
-.udesp{
+.ydesp{
     color: rgba(14, 14, 14, 0.6);
     font-family: Fira Sans;
     font-size: 16px;
@@ -367,13 +370,6 @@ nav ul li button:hover{
     gap: 24px;
     margin: 0px 104.5px 32px 104.5px;
 }
-/* .option h4{
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-} */
 .bg-color{
     background: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
